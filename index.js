@@ -21,10 +21,14 @@ if (studentClass === 'SCIENCE') {
 
 // question 5. Write a program that takes a positive number (num) and finds the power of 2 nearest to that number. 
 
-let num = 40;
-let pwr
-for (let index = 2; index < 20; index = ++2) {
-  pwr = index;
+let num = 100;
+let pwr = 2
+
+for (let index = 0; index< 8; index++) {
+  let currNum = 1 << index;
+  if (currNum > num)
+  break;
+  pwr = currNum;
 }
 console.log("The number " + pwr + " is the power of 2 nearest to " + num);
   

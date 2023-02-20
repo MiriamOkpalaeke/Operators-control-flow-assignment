@@ -4,8 +4,7 @@
 
 - Arithmetic Operators
 
-  > +, -, \*, /, %, \*\*, ++, -- ( when i save the multiplication and exponential vscode automatically adds a slash to it.)
-
+  > +, -, \*, /, %, \*\*, ++, -- 
 - Assignment Operators
 
   > = , +=, -=,\*=, /=, %=, \*\*=
